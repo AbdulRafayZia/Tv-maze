@@ -1,0 +1,24 @@
+.header{
+    background-color:rgb(39 34 28) ;
+    color: white;
+
+}
+.title{
+    margin: 50px;
+    text-align: justify;
+    font-size:xx-large;
+    font-weight: bold;
+
+}
+.text{
+    margin: 50px;
+    font-size: larger;
+    margin-bottom: 15rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .text{
+       
+        margin-bottom: 5rem;
+    }
+  }

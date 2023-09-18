@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+.btnContainer{
+    display: flex;
+    column-gap: 100px;
+    
+}
+.btn{
+    border: 3px solid rgba(0, 0, 0, 0.112);
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+}
+.prevlogo,.nextlogo{
+   
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+}
+.prevlogo{
+    margin-right: -10px;
+}
+
+.nextlogo{
+    margin-left: 10px;
+}
+.btn:active{
+    background: #000;
+    color: white;
+}
+
+.btn:focus, .focus{
+    background: #000;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .btnContainer{
+       
+        column-gap: 10px;
+        
+    }
+    .btn ,.logo{
+        border: 2px solid rgba(0, 0, 0, 0.112);
+        width: 25px;
+
+        border-radius: 50px;
+    }
+  }
